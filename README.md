@@ -4,8 +4,7 @@ uvをインストール: https://docs.astral.sh/uv/getting-started/installation/
 もしくはnixを使う
 
 ```bash
-uv init cli-python-template
-cd cli-python-template
+uv init
 uv add typer rich textual
 uv add --dev ruff
 ```

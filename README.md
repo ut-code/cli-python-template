@@ -4,6 +4,10 @@ uvをインストール: https://docs.astral.sh/uv/getting-started/installation/
 もしくはnixを使う
 
 ```bash
+# このテンプレートで開発する場合
+uv sync
+
+# このテンプレートを再現したい場合
 uv init
 uv add typer rich textual
 uv add --dev ruff

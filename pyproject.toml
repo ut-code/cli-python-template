@@ -1,0 +1,21 @@
+[project]
+name = "cli-python-template"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "rich>=14.2.0",
+    "textual>=6.7.1",
+    "typer>=0.20.0",
+]
+
+[tool.uv.workspace]
+members = [
+    "cli-python-template",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.14.8",
+]
